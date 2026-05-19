@@ -1,0 +1,47 @@
+# Laravel
+/vendor
+/node_modules
+/.env
+/.env.backup
+/.env.production
+/storage/*.key
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/logs/*
+!/storage/framework/cache/.gitkeep
+!/storage/framework/sessions/.gitkeep
+!/storage/framework/views/.gitkeep
+!/storage/logs/.gitkeep
+/bootstrap/cache/*
+!/bootstrap/cache/.gitkeep
+/public/hot
+/public/storage
+/public/build
+Homestead.yaml
+Homestead.json
+auth.json
+.phpunit.result.cache
+
+# Next.js Frontend
+/frontend/node_modules
+/frontend/.next
+/frontend/out
+/frontend/.env.local
+/frontend/.env.development.local
+/frontend/.env.test.local
+/frontend/.env.production.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Composer
+composer.phar
